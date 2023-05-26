@@ -1,4 +1,5 @@
-.hide{
+@media (min-width:500px){
+    .hide{
     display:none !important;
 }
 
@@ -134,8 +135,68 @@ button{
 button :hover{
     background-color: grey;
 }
+}
 
-
-
-
-
+@media (max-width:500px )
+{
+    .hide{
+        display:none !important;
+    }
+    body{
+        width:500px;
+        height:100%;
+        margin:0;
+    }
+    
+    
+    
+    .content img{
+        height:75%;
+        
+    }
+   
+    .main{
+        position:relative;
+        margin-left: 30px;
+        margin-bottom:0px;
+        margin-top: 25px;
+        height:100%;
+    
+    }
+    
+    .quotes{
+       
+         position: absolute;
+            top: 75%;
+            left: 0%;
+            transform: translate(-80%, -50%);
+            height:50px;
+            width:390px;
+      
+    }
+    .quotes img{
+        position: absolute;
+        left:13%;
+        top:10%;
+        
+    }
+    .tanya{
+        height:200px;
+        position: absolute;
+        top: 51%;
+        left: 21%;
+        padding-bottom: 0;
+        margin-bottom: 0;;
+        transform: translate(-15%, -50%);
+    .end{
+            position:absolute;
+            bottom:0px;
+            margin-bottom: 0%;
+            margin-left: 0%;
+            padding-bottom: 0%;
+        }
+  
+      
+}
+    
+}
