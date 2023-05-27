@@ -1,4 +1,4 @@
-@media (min-width:500px){
+@media (min-width:375px){
     .hide{
     display:none !important;
 }
@@ -48,21 +48,19 @@ body{
 
 .tanya{
         height:540px;
+        width:540px;
         position: absolute;
         top: 51%;
         left: 21%;
         padding-bottom: 0;
         margin-bottom: 0;;
         transform: translate(-15%, -50%);
+        background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-tanya.jpg')
         
   
       
 }
-.tanya img{
-    border-radius: 10px;
-
-}
-.john{
+.image{
     height:540px;
     position: absolute;
     top: 51%;
@@ -74,10 +72,26 @@ body{
 
   
 }
-.john img{
+.tanya img{
     border-radius: 10px;
 
 }
+.john{
+    height:540px;
+    width:540px;
+    position: absolute;
+    top: 51%;
+    left: 21%;
+    padding-bottom: 0;
+    margin-bottom: 0;;
+    transform: translate(-15%, -50%);
+    background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-john.jpg')
+    
+
+  
+}
+
+
 
 
 .content{
@@ -137,7 +151,7 @@ button :hover{
 }
 }
 
-@media (max-width:500px )
+@media (max-width:375px )
 {
     .hide{
         display:none !important;
@@ -158,45 +172,22 @@ button :hover{
     .main{
         position:relative;
         margin-left: 30px;
-        margin-bottom:0px;
+        margin-bottom:20px;
         margin-top: 25px;
         height:100%;
+        padding-top:50px;
     
     }
+    .main img{
+        height:350px;
+        width:340px;
+    }
+  
     
-    .quotes{
-       
-         position: absolute;
-            top: 75%;
-            left: 0%;
-            transform: translate(-80%, -50%);
-            height:50px;
-            width:390px;
-      
-    }
-    .quotes img{
-        position: absolute;
-        left:13%;
-        top:10%;
-        
-    }
-    .tanya{
-        height:200px;
-        position: absolute;
-        top: 51%;
-        left: 21%;
-        padding-bottom: 0;
-        margin-bottom: 0;;
-        transform: translate(-15%, -50%);
-    .end{
-            position:absolute;
-            bottom:0px;
-            margin-bottom: 0%;
-            margin-left: 0%;
-            padding-bottom: 0%;
-        }
+    
+    
   
       
-}
+
     
 }
