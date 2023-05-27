@@ -32,14 +32,18 @@ body{
    
      position: absolute;
         top: 45%;
-        left: 0%;
+        left:-49px;
         transform: translate(-80%, -50%);
   
 }
-.quotes img{
+.image-quote{
     position: absolute;
-    left:13%;
+    left:14.5%;
     top:10%;
+    border-radius: 0 ;
+    width:120px;
+    height:100px;
+    background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-quotes.svg');
     
 }
 
@@ -97,7 +101,7 @@ body{
     margin-top: 0px;
     padding-top: -10px;
     left:10%;
-    width:700px;
+    width:640px;
 }
 .content h3{
     
@@ -128,7 +132,7 @@ body{
     background-color: white;
     transform: translate(-80%, -50%);
     box-shadow: 0px 10px 5px rgb(103, 102, 102);
-    border-radius: 10px;
+    border-radius: 20px;
 
     
     
@@ -140,8 +144,10 @@ button{
     border:none;
     width:32px;
     background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     
     
 }
@@ -208,19 +214,19 @@ button :hover{
         background-size: cover;
         background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-john.jpg')
         
-    }
+    
     }
 
         .buttons{
             width:70px;
             height:35px;
-            margin-left:135px;
+            margin-left:160px;
             position:relative;
             top: 100%;
             background-color: white;
             transform: translate(-80%, -50%);
             box-shadow: 0px 10px 5px rgb(103, 102, 102);
-            border-radius: 10px;
+            border-radius: 20px;
         
             
             
@@ -232,11 +238,62 @@ button :hover{
             border:none;
             width:32px;
             background-color: white;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
             
             
         }
+        .quotes{
+   
+            position: absolute;
+               top: 150%;
+               left:80%;
+               transform: translate(-80%, -50%);
+         
+       }
+       .image-quote{
+        position: absolute;
+        left:40%;
+        top:10%;
+        border-radius: 0 ;
+        width:60px;
+        height:50px;
+        background-size: cover;
+        background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-quotes.svg');
+        
+    }
+       .content{
+        margin-top: 0px;
+        padding-top: -10px;
+        left:100%;
+        width:300px;
+        height:200px;
+    }
+
+    .content h3{
+        
+       padding-top: 30px;
+        font-family:'Inter', sans-serif;
+        font-size: 18px;
+        padding-left: 7px;
+        font-weight: 300, 500, 700;
+        color:hsl(240, 38%, 20%);
+        text-align:center;
+        
+       
+    
+    }
+    .content h4{
+        
+    
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: justify;
+       
+    }
         .buttons .prev__button{
             background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\icon-prev.svg');
             background-repeat: no-repeat;
@@ -256,17 +313,9 @@ button :hover{
             margin-bottom: 0%;
             margin-left: 0%;
             width:375px;
-            height:100px;
+            height:80px;
             background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-curve.svg');
             background-size: cover;
             
         }
-     
-    
-    
-    
-  
-      
-
-    
-}
+} 
