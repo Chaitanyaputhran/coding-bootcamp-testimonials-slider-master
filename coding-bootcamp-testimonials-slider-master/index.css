@@ -207,8 +207,8 @@ button :hover{
         height:290px;
         width:280px;
         position: absolute;
-        top: 57%;
-        left: 15%;
+        top: 54.5%;
+        left: 22%;
         transform: translate(-15%, -50%);
         border-radius: 10px;
         background-size: cover;
