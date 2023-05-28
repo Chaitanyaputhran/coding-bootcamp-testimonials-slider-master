@@ -17,7 +17,7 @@ body{
     margin-left: 0%;
     width:610px;
     height:158px;
-    background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-curve.svg');
+    background-image: url('..\\images\\pattern-curve.svg');
 }
 .main{
     position:relative;
@@ -43,7 +43,7 @@ body{
     border-radius: 0 ;
     width:120px;
     height:100px;
-    background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-quotes.svg');
+    background-image: url('..\\images\\pattern-quotes.svg');
     
 }
 
@@ -57,7 +57,7 @@ body{
         border-radius: 10px;
         margin-bottom: 0;;
         transform: translate(-15%, -50%);
-        background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-tanya.jpg')
+        background-image:url('..\\image-tanya.jpg')
         
   
       
@@ -88,7 +88,7 @@ body{
     border-radius: 10px;
     margin-bottom: 0;;
     transform: translate(-15%, -50%);
-    background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-john.jpg')
+    background-image:url('..\\image-john.jpg')
     
 
   
@@ -152,12 +152,12 @@ button{
     
 }
 .buttons .prev__button{
-    background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\icon-prev.svg');
+    background-image: url('..\\images\\icon-prev.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 .buttons .next__button{
-    background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\icon-next.svg');
+    background-image: url('..\\images\\icon-next.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -199,7 +199,7 @@ button :hover{
         transform: translate(-15%, -50%);
         border-radius: 10px;
         background-size: cover;
-        background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-tanya.jpg')
+        background-image:url('..\\image-tanya.jpg')
         
         
     }
@@ -212,7 +212,7 @@ button :hover{
         transform: translate(-15%, -50%);
         border-radius: 10px;
         background-size: cover;
-        background-image:url('..\\coding-bootcamp-testimonials-slider-master\\image-john.jpg')
+        background-image:url('..\\image-john.jpg')
         
     
     }
@@ -261,7 +261,7 @@ button :hover{
         width:60px;
         height:50px;
         background-size: cover;
-        background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-quotes.svg');
+        background-image: url('..\\images\\pattern-quotes.svg');
         
     }
        .content{
@@ -295,12 +295,12 @@ button :hover{
        
     }
         .buttons .prev__button{
-            background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\icon-prev.svg');
+            background-image: url('..\\images\\icon-prev.svg');
             background-repeat: no-repeat;
             background-position: center;
         }
         .buttons .next__button{
-            background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\icon-next.svg');
+            background-image: url('..\\images\\icon-next.svg');
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -314,7 +314,7 @@ button :hover{
             margin-left: 0%;
             width:375px;
             height:80px;
-            background-image: url('..\\coding-bootcamp-testimonials-slider-master\\images\\pattern-curve.svg');
+            background-image: url('..\\images\\pattern-curve.svg');
             background-size: cover;
             
         }
