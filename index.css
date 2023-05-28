@@ -166,13 +166,13 @@ button :hover{
 }
 }
 
-@media (max-width:250px )
+@media (max-width:375px )
 {
     .hide{
         display:none !important;
     }
     body{
-        width:250px;
+        width:375px;
         height:100%;
         margin:0;
     }
@@ -188,7 +188,7 @@ button :hover{
     }
     .main img{
         height:350px;
-        width:240px;
+        width:340px;
     }
     .tanya {
         height:290px;
